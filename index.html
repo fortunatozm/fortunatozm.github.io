@@ -3,7 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <title>Fortunato - Portfólio</title>
+    <style>
+
+        body{
+
+            background-color: #d2d5dd;
+            
+        }
+        h1{
+            font-family: sans-serif, Arial;
+            color:chocolate ;
+        }  
+
+        p{
+
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        h2{
+
+            color: saddlebrown;
+        }
+
+        .paragrafo{
+
+            font-style: italic;
+            color: red;
+        }
+
+        .habilidade-um{
+
+            font-size: 20px;
+            color: blue;
+        }
+        
+        .habilidade-cinco{
+
+            font-size: 21px;
+            color: blue;
+        }
+        
+        .habilidade-dois{
+
+            font-size: 19px;
+            
+        }
+        
+        .habilidade-tres{
+
+            font-size: 18px;
+            
+        }
+        
+        .habilidade-quatro{
+
+            font-size: 17px;
+            
+        }
+
+        .portfolio-um{
+
+            font-size: 22px;
+            color: green;
+        }
+        
+        .portfolio-dois{
+
+            font-size: 21px;
+            color: yellow;
+        }
+        
+        .portfolio-tres{
+
+            font-size: 20px;
+            color: blue;
+        }
+        #foto{
+            border-radius:  100%;
+        }
+    </style>
 </head>
+
 <body>
 
     <ul id="menu">
@@ -14,33 +94,34 @@
 
     <h1>Fortunato Bernardo Zau Mpongo</h1>
 
-    <img src="./images/minha_foto.jpg" id="foto" alt="Eu, Fortunato, codando" width="400px">
+    <img src="./images/minha_foto.jpg" id="foto" alt="Eu, Fortunato, codando" width="500px" height="500px">
 
-    <p>Sou estudante da <strong>Trybe</strong>, faço o curso de <strong>Desenvolvimento Web FullStack</strong> | <br>Sou <strong>engenheiro Agrimensor e Cartográfico</strong> | Sou <strong>Angolano</strong> e moro no Brasil desde 2014 | <br>De 2014 à 2019 vivi no Rio Grande do Sul, onde me formei. Atualmente vivo no <strong>Distrito Federal, Brasília</strong>. </p>
+    <p>Sou estudante da <strong class="paragrafo">Trybe</strong>, faço o curso de <strong class="paragrafo">Desenvolvimento Web FullStack</strong> | <br>Sou <strong class="paragrafo">engenheiro Agrimensor e Cartográfico</strong> | Sou <strong class="paragrafo">Angolano</strong> e moro no Brasil desde 2014 | <br>De 2014 à 2019 vivi no Rio Grande do Sul, onde me formei. Atualmente vivo no <strong class="paragrafo">Distrito Federal, Brasília</strong>. </p>
 
 
     <h2>Habilidades</h2>
 
     <ul id="habilidades">
-        <li><strong>Proativo</strong></li>
-        <li>Curioso</li>
-        <li>Sempre disposto a aprender</li>
-        <li>Brincalhão</li>
-        <li><strong>Dificilmente desiste</strong></li>
+        <li class="habilidade-um" ><strong>Proativo</strong></li>
+        <li class="habilidade-dois" >Curioso</li>
+        <li class="habilidade-tres" >Sempre disposto a aprender</li>
+        <li class="habilidade-quatro" >Brincalhão</li>
+        <li class="habilidade-cinco" ><strong>Dificilmente desiste</strong></li>
     </ul>
 
     <h2>Meu Portfólio</h2>
 
     <ul id="portfolio">
-        <li>Unix & Bash</li>
-        <li>Git, GitHub e Internet</li>
-        <li>HTML</li>
+        <li class="portfolio-um" >Unix & Bash</li>
+        <li class="portfolio-dois" >Git, GitHub e Internet</li>
+        <li class="portfolio-tres" >HTML</li>
     </ul>
+    <br><br><br><br>
+
+    <a href="#menu">Voltar ao Menu</a> <br><br>
 
     <a href="#foto">Voltar para foto</a> <br><br>
     
-    <a href="#menu">Voltar ao Menu</a> <br><br>
-
     <a href="https://www.techtudo.com.br/" target="_blank">Site do Techtudo</a> <br>
 
 </body>
